@@ -27,6 +27,14 @@
     }
   },
   "extra": {
+    "laravel": {
+        "providers": [
+            "FarhanWazir\\GoogleMaps\\GMapsServiceProvider"
+        ],
+        "aliases": {
+            "GMaps": "FarhanWazir\\GoogleMaps\\Facades\\GMapsFacade"
+        }
+    },
     "branch-alias": {
       "dev-master": "2.5.x-dev"
     }
